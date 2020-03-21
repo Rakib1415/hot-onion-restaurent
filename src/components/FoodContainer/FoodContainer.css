@@ -1,0 +1,12 @@
+.card{
+    border: none !important;
+    
+    
+}
+.card:hover {
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 3%;
+}
+.card-body{
+    text-align: center;
+}

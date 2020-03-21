@@ -1,0 +1,34 @@
+
+.food-time ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.food-time ul li{
+    float: left;
+    list-style: none;
+    
+    
+   
+}
+.food-time ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+}
+.food-time ul li a.active{
+    position: relative;
+     
+}
+.food-time ul li a.active:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #1a54e7;
+
+}
