@@ -1,6 +1,8 @@
 import React from 'react';
 import Background from '../../bannerbackground.png';
 import './Banner.css';
+import Cetagories from '../Cetagories/Cetagories';
+
 
 const Banner = () => {
     var sectionStyle = {
@@ -11,6 +13,8 @@ const Banner = () => {
         backgroundRepeat: 'no-repeat',
         backgroundImage: `url(${Background})`
       };
+
+     
     return (
             <div className="container">
                 <div style={sectionStyle}>
@@ -30,6 +34,7 @@ const Banner = () => {
                     </div>
                 </div>
                 </div>
+                
          </div>
     );
 };
