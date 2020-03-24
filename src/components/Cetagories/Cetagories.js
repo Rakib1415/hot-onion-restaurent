@@ -2,6 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import fakeData from '../../fakeData';
 import FoodItems from '../FoodItems/FoodItems';
+import Banner from '../Banner/Banner';
+
 
 const Cetagories = () => {
     const foodItems = fakeData;
@@ -21,6 +23,7 @@ const Cetagories = () => {
 
     return (
         <div className="container">
+            <Banner></Banner>
             <div className="food-time d-flex justify-content-center mt-4">
                 <ul>
                     <li><a href="#"  onMouseOver={handleClickCategory} className="category">Breakfast</a></li>

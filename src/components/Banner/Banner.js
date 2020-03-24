@@ -27,7 +27,7 @@ const Banner = () => {
                                <input type="text" placeholder='Search Food Items'/>
                            </div>
                            <div className="submit">
-                               <input type="submit" value="Sign up"/>
+                               <input type="submit" value="Search"/>
                            </div>
                        </div>
                    </form>

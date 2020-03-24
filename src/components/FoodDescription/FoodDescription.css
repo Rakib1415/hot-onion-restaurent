@@ -1,0 +1,39 @@
+.cart input[type="text"]:focus {
+    outline: 0;
+}
+.cart input[type="text"] {
+    height: 30px;
+    width: 50px;
+    padding-left: 20px;
+    border: none;
+    
+}
+.price{
+    float: left;
+    margin-right: 20px;
+}
+.cart-count{
+    border: 1px solid gray;
+    display: inline-block;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.myBtn{
+    border: none;
+    height: 47px;
+    background-color: white;
+    display: inline-block;
+}
+.cart-btn{
+    margin-top: 20px;
+}
+.add-btn{
+     width: 100px;
+     height: 40px;
+     border: 1px solid red;
+     border-radius: 20px;
+     background-color: red;
+     color: white;
+}

@@ -8,18 +8,21 @@ import {
 } from "react-router-dom";
 
 import Header from './components/Header/Header';
-import Banner from './components/Banner/Banner';
-import FoodItems from './components/FoodItems/FoodItems';
+
 import FoodDetails from './components/FoodDetails/FoodDetails';
-import FoodDescription from './components/FoodDescription/FoodDescription';
 import Cetagories from './components/Cetagories/Cetagories';
-import FoodContainer from './components/FoodContainer/FoodContainer';
+import Login from './components/Login/Login';
+import Shipment from './components/Shipment/Shipment';
+import Complete from './components/Complete/Complete';
 
 function App() {
   return (
     <div className="App">
+
+
+     
       <Header></Header>
-      <Banner></Banner>
+      
       
       
       <Router>
@@ -30,8 +33,18 @@ function App() {
           <Route path="/product/:productKey">
           <FoodDetails></FoodDetails>
           </Route>
+          <Route path="/login">
+            <Login></Login>
+          </Route>
+          <Route path="/shipment">
+            <Shipment></Shipment>
+          </Route>
+          <Route path="/complete">
+            <Complete></Complete>
+          </Route>
         </Switch>
       </Router>
+      
     </div>
   );
 }

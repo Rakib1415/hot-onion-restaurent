@@ -28,7 +28,7 @@
     top: 0;
 
 }
-input[type="submit"] {
+.submit input[type="submit"] {
     height: 60px;
     padding-right: 30px;
     padding-left: 30px;
@@ -37,6 +37,6 @@ input[type="submit"] {
     background-color: red;
     color: white;
 }
-input[type="submit"]:focus {
+.submit input[type="submit"]:focus {
     outline: 0;
 }

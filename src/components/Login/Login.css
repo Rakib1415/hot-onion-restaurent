@@ -1,0 +1,37 @@
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: lightgray;
+    padding: 20px 30px;
+    outline: none;
+    color: gray;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 2px 2px 4px #34495e;
+  }
+  .contact-form-btn{
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: red;
+    padding: 20px 30px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
